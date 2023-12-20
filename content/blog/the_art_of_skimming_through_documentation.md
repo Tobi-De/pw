@@ -14,10 +14,11 @@ featured: true
 > TL;DR: The title is already self-explanatory,  but nonetheless: Skimming through well-written documentation is one of the best ways I know to discover new techniques and tools. It is easier and can sometimes be more effective than straining your brain attempting to decode someone else's code for the purpose of learning.
 
 This could have been the perfect opportunity to begin with the classic: *This is something I wish I knew as a beginner*. However, in my case, I believe I was already doing this even as a beginner. I don't recall where I picked it up, but I knew two things that might have pushed me toward that edge:
+
 1. There is a lot to understand in this tech stuff.
 2. Understanding any topic requires reading about it first. Reading may not be enough, but it is a prerequisite at least.
 
-I'm sure you've already heard countless times the classic _go read the docs advice_. Some colleagues might have even shouted that to you. And I can reassure you, they were right. Reading documentation is crucial, but I'm here to advocate for something else, similar yet different and also complementary - **skimming through the documentation**.
+I'm sure you've already heard countless times the classic *go read the docs advice*. Some colleagues might have even shouted that to you. And I can reassure you, they were right. Reading documentation is crucial, but I'm here to advocate for something else, similar yet different and also complementary - **skimming through the documentation**.
 
 What do I mean by skimming? The basic workflow for most is as follows: use a tool, encounter a problem, Google for a solution (or refer to the documentation if you're more experienced and if it is applicable), and repeat the cycle. This approach works fine and you'll eventually become proficient with that tool after repeated use.
 But let's imagine this: the first time you use the tool, you skim through the docs. You speed run it, reading every chapter title and subtitle, and maybe even a few lines of each paragraph (if you have time and the doc isn't too long, you might read the whole thing). The first thing you'll gain from this is a sense of **possibilities**. You'll get a general overview of what you can do with the tool, and a deeper one than if you had just read the readme or tutorial section. Who knows, perhaps while reading, you'll discover a new approach or pattern, or even a new tool(maybe a dependency of that project). I can give you two examples of when that happened to me:
