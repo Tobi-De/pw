@@ -7,6 +7,7 @@ tags:
   - advice
 description: Discover the power of skimming through documentation to uncover new techniques and tools. By speed reading and browsing through chapters and paragraphs, you can gain a sense of possibilities and deepen your understanding of a tool.
 publish_date: 2023-12-20
+featured: true
 ---
 
 
