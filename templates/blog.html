@@ -11,7 +11,7 @@
                     <div class="mx-auto w-full max-w-2xl">
                         <header class="mb-4">
                             <div class="flex justify-between">
-                                <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+                                <h1 class="text-4xl font-bold tracking-tight text-base-content sm:text-5xl">
                                     Blog
                                 </h1>
                                 <a hx-boost="false" class="group mt-4" href="/rss.xml">
@@ -22,7 +22,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <p class="mt-6 text-base text-zinc-400">
+                            <p class="mt-6 text-base text-content">
                                 Programming tutorials, recipes and sometimes thoughts on tech trends and system
                                 design mainly around django and the python ecosystem. I might add some javascript or go
                                 here and there, you never know :)
@@ -39,8 +39,8 @@
                                 <input aria-label="Search articles" type="text"
                                     x-model="search"
                                     placeholder="Search articles"
-                                    class="block w-full px-4 py-2 border border-zinc-700 rounded-md bg-zinc-900 focus:ring-teal-500 focus:border-teal-500">
-                                <svg class="absolute w-5 h-5 text-zinc-300 right-3 top-3"
+                                    class="block w-full px-4 py-2 border border-zinc-700 rounded-md bg-base-200 focus:ring-teal-500 focus:border-teal-500">
+                                <svg class="absolute w-5 h-5 text-content right-3 top-3"
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -63,14 +63,14 @@
                                             </div>
                                             <span class="text-zinc-500">{{ post|readtime_from_post }}</span>
                                         </div>
-                                        <h2 class="mb-2 text-2xl font-bold tracking-tight hover:text-teal-400">
+                                        <h2 class="mb-2 text-2xl font-bold tracking-tight hover:text-teal-500">
                                             <a href="/{{ post.slug }}/">{{ post.title }}</a></h2>
-                                        <p class="mb-5 text-zinc-400">{{ post.description }}</p>
+                                        <p class="mb-5 text-base text-content">{{ post.description }}</p>
                                         <div class="flex items-center justify-between">
                                         <span class="text-sm text-zinc-500">Published <time
                                                 datetime="{{ post.publish_date.isoformat }}">{{ post.publish_date }}</time></span>
                                             <a
-                                                    class="inline-flex items-center font-medium text-teal-400 hover:underline"
+                                                    class="inline-flex items-center font-medium text-teal-500 hover:underline"
                                                     href="/{{ post.slug }}/">Read more
                                                 <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20"
                                                     xmlns="http://www.w3.org/2000/svg">
@@ -100,10 +100,10 @@
                             </div>
                             {% endcomment %}
                             <div class="p-6 mb-6 font-medium border rounded-lg border-zinc-700">
-                                <h4 class="mb-4 font-bold uppercase">Recommended articles</h4>
-                                <ul class="space-y-2 text-zinc-400">
+                                <h4 class="mb-4 text-base-content font-bold uppercase">Recommended articles</h4>
+                                <ul class="space-y-2 text-content">
                                     <li>
-                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-zinc-400 hover:text-teal-400"
+                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-content hover:text-teal-500"
                                            href="https://grugbrain.dev/" target="_blank">
                                             <span class="w-full">The Grug Brained Developer</span>
                                             <svg class="ml-3 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -115,7 +115,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-zinc-400 hover:text-teal-400"
+                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-content hover:text-teal-500"
                                            href="https://github.com/guettli/wol" target="_blank">
                                             <span class="w-full">Thomas WOL: Working out Loud</span>
                                             <svg class="ml-3 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -127,7 +127,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-zinc-400 hover:text-teal-400"
+                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-content hover:text-teal-500"
                                            href="https://fs.blog/chestertons-fence/" target="_blank">
                                             <span class="w-full">Chesterton’s Fence: A Lesson in Second Order Thinking</span>
                                             <svg class="ml-3 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -139,7 +139,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-zinc-400 hover:text-teal-400"
+                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-content hover:text-teal-500"
                                            href="https://htmx.org/essays/rest-explained/" target="_blank">
                                             <span class="w-full">REST - What is it, really?</span>
                                             <svg class="ml-3 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -151,7 +151,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-zinc-400 hover:text-teal-400"
+                                        <a class="inline-flex justify-center items-center p-2 w-full text-base font-medium text-content hover:text-teal-500"
                                            href="https://untools.co" target="_blank">
                                             <span class="w-full">Tools for better thinking</span>
                                             <svg class="ml-3 w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
@@ -176,14 +176,14 @@
                             {#                                              class="stroke-zinc-500"></path>#}
                             {#                                    </svg>#}
                             {#                                    <span class="ml-3 font-bold uppercase">Stay up to date</span></h4>#}
-                            {#                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Get notified when I publish#}
+                            {#                                <p class="mt-2 text-sm text-zinc-600 dark:text-content">Get notified when I publish#}
                             {#                                    something new, and unsubscribe at any time.</p>#}
                             {#                                <div class="mt-6 mb-4 flex flex-col gap-2">#}
                             {#                                    <input type="text" placeholder="Friendly name" aria-label="Friendly name"#}
-                            {#                                           class="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm">#}
+                            {#                                           class="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-content focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm">#}
                             {#                                    <input type="email" placeholder="Email address"#}
                             {#                                           aria-label="Email address" required=""#}
-                            {#                                           class="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm">#}
+                            {#                                           class="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-content focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm">#}
                             {#                                </div>#}
                             {#                                <button class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 ml-4 flex-none"#}
                             {#                                        type="submit">Join#}

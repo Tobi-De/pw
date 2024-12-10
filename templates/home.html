@@ -15,11 +15,11 @@
                         <div class="flex items-center">
                             <img class="object-cover w-12 h-12 border-2 border-gray-700 rounded-full" alt="Tobi avatar"
                             src="{% static "images/dt.png" %}">
-                            <h1 class="text-3xl font-bold ms-3 tracking-tight text-zinc-100 sm:text-4xl">
+                            <h1 class="text-3xl font-bold ms-3 tracking-tight text-base-content sm:text-4xl">
                                 Tobi - Software Developer</h1>
                         </div>
                         
-                        <p class="mt-6 text-base text-zinc-400">
+                        <p class="mt-6 text-base text-base-content">
                             I'm Tobi, a proficient software developer with a strong emphasis on backend development. My
                             primary playground is the
                             Python ecosystem, where I harness the power of tools like Django and FastAPI to craft robust
@@ -71,21 +71,21 @@
         </div>
     </section>
     <section class="mt-16">
-        <h2 class="font-bold text-2xl md:text-2xl tracking-tight mb-8 text-white text-center">Featured Posts</h2>
+        <h2 class="font-bold w-96 mx-auto text-2xl md:text-2xl tracking-tight mb-8 text-base-content text-center divider">Featured Posts</h2>
         <div
             class="flex flex-col mx-3 items-center md:items-stretch lg:mx-0 lg:flex-row lg:justify-center gap-5 overflow-hidden sm:gap-8">
             {% for post in posts %}
             <a href="/{{ post.slug }}/"
-                class="block p-6 rounded-lg border shadow-md border-zinc-700 hover:bg-zinc-700 lg:max-w-sm">
-                <time class="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 pl-3.5"
+                class="block p-6 rounded-lg border shadow-md border-zinc-700 hover:bg-base-300 lg:max-w-sm">
+                <time class="relative z-10 order-first mb-3 flex items-center text-sm text-base-content/70 pl-3.5"
                     datetime="2022-09-05">
                     <span class="absolute inset-y-0 left-0 flex items-center" aria-hidden="true">
                         <span class="h-4 w-0.5 rounded-full bg-zinc-500"></span>
                     </span>{{ post.publish_date }}
                 </time>
                 <h5 class="mb-2 text-2xl font-bold tracking-tight">{{ post.title }}</h5>
-                <p class="font-normal text-zinc-400">{{ post.description|truncatewords:20 }}</p>
-                <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500">
+                <p class="font-normal text-base-content/70">{{ post.description|truncatewords:20 }}</p>
+                <div aria-hidden="true" class="relative underline z-10 mt-4 flex items-center text-sm font-medium text-teal-600">
                     Read article
                     <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" class="ml-1 h-4 w-4 stroke-current">
                         <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-width="1.5" stroke-linecap="round"
@@ -97,17 +97,17 @@
         </div>
     </section>
     <section class="mt-16 max-w-6xl mx-auto">
-        <h2 class="font-bold text-2xl md:text-2xl tracking-tight mb-4 text-white text-center">Some things I've
+        <h2 class="font-bold w-96 mx-auto text-2xl md:text-2xl tracking-tight mb-4 text-base-content text-center divider">Some things I've
             built</h2>
-        <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
+        <p class="mt-4 text-center text-base-content">
             Some of my recent projects, <a href="/projects"
-                class="font-medium text-teal-400 hover:text-teal-600 hover:underline">view
+                class="font-medium text-teal-500 hover:text-teal-600 hover:underline">view
                 the
                 archive</a>.
         </p>
         <div class="grid grid-cols-1 gap-8 mt-8 mx-4 md:mx-0 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
             <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-            style="background-image:url('https://images.unsplash.com/photo-1611689342806-0863700ce1e4?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+            style="background-image:url('https://images.unsplash.com/photo-1611689342806-0863700ce1e4?q=80&w=352&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
                 <div
                     class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
                     <h2 class="mt-4 text-2xl font-semibold text-white capitalize">Falco</h2>
@@ -117,7 +117,7 @@
             </div>
 
             <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-                style="background-image:url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=3871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+                style="background-image:url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=352&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
                 <div
                     class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
                     <h2 class="mt-4 text-2xl font-semibold text-white capitalize">Leerming</h2>
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-                style="background-image:url('https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+                style="background-image:url('https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?q=80&w=352&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
                 <div
                     class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
                     <h2 class="mt-4 text-2xl font-semibold text-white capitalize">HTMX Extensions</h2>
@@ -140,19 +140,19 @@
         <div class="mx-auto max-w-xl px-2 lg:px-8">
             <div class="flex justify-center">
                 <div class="text-center">
-                    <h2 class="font-bold text-2xl md:text-2xl tracking-tight mb-4 text-white text-center">Get In
+                    <h2 class="font-bold w-96 mx-auto text-2xl md:text-2xl tracking-tight mb-4 text-base-content text-center divider">Get In
                         Touch</h2>
-                    <p class="font-normal text-zinc-400 my-6">
+                    <p class="font-normal text-base-content/70 my-6">
                         I'm currently on the lookout for new and exciting opportunities. If you believe I could be a
                         valuable
                         addition to your project
                         or business, don't hesitate to reach out via email at <a href="mailto:tobidegnon@proton.me"
-                            class="text-teal-400 hover:text-teal-600 hover:underline">tobidegnon@proton.me</a>. I'll do
+                            class="text-teal-500 hover:text-teal-600 hover:underline">tobidegnon@proton.me</a>. I'll do
                         my best to respond as
                         promptly as possible.
                     </p>
                     <div class="flex justify-center">
-                        <a class="group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500"
+                        <a class="group flex text-sm font-medium text-base-content transition hover:text-teal-500"
                             href="mailto:tobidegnon@proton.me">
                             <svg viewBox="0 0 24 24" aria-hidden="true"
                                 class="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500">
