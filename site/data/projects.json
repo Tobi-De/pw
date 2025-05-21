@@ -133,7 +133,7 @@
         "private": false
     },
     {
-        "last_updated": "2025-05-17",
+        "last_updated": "2025-05-19",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
@@ -145,7 +145,7 @@
         "private": false
     },
     {
-        "last_updated": "2025-05-17",
+        "last_updated": "2025-05-19",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
