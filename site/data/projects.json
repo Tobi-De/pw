@@ -13,6 +13,18 @@
         "priority": 1
     },
     {
+        "last_updated": "2025-08-16",
+        "name": "django-litestream",
+        "description": "Django integration with litestream, a standalone streaming replication tool for SQLite.",
+        "stack": "Django",
+        "company": "Open Source",
+        "web_url": "https://github.com/Tobi-De/django-litestream",
+        "github_url": "https://github.com/Tobi-De/django-litestream",
+        "featured": true,
+        "active": true,
+        "private": false
+    },
+    {
         "last_updated": "2025-04-25",
         "name": "cookiecutter-fastapi",
         "description": "A Cookiecutter template for fastapi projects, inspired by cookiecutter-django. My first experience trying to build a cookiecutter, one of the most boring things I've worked on.",
@@ -32,18 +44,6 @@
         "company": "Open Source",
         "web_url": "https://fujin.oluwatobi.dev/en/latest/",
         "github_url": "https://github.com/falcopackages/fujin",
-        "featured": true,
-        "active": true,
-        "private": false
-    },
-    {
-        "last_updated": "2024-12-30",
-        "name": "django-litestream",
-        "description": "Django integration with litestream, a standalone streaming replication tool for SQLite.",
-        "stack": "Django",
-        "company": "Open Source",
-        "web_url": "https://github.com/Tobi-De/django-litestream",
-        "github_url": "https://github.com/Tobi-De/django-litestream",
         "featured": true,
         "active": true,
         "private": false
@@ -133,7 +133,7 @@
         "private": false
     },
     {
-        "last_updated": "2025-08-13",
+        "last_updated": "2025-08-15",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
@@ -145,7 +145,7 @@
         "private": false
     },
     {
-        "last_updated": "2025-08-13",
+        "last_updated": "2025-08-15",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
