@@ -13,7 +13,7 @@
         "priority": 1
     },
     {
-        "last_updated": "2025-12-08",
+        "last_updated": "2025-12-12",
         "name": "cookiecutter-fastapi",
         "description": "A Cookiecutter template for fastapi projects, inspired by cookiecutter-django. My first experience trying to build a cookiecutter, one of the most boring things I've worked on.",
         "stack": "python",
@@ -133,7 +133,7 @@
         "private": false
     },
     {
-        "last_updated": "2025-12-09",
+        "last_updated": "2025-12-11",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
@@ -145,7 +145,7 @@
         "private": false
     },
     {
-        "last_updated": "2025-12-09",
+        "last_updated": "2025-12-11",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
