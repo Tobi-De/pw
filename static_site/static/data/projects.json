@@ -13,6 +13,18 @@
         "priority": 1
     },
     {
+        "last_updated": "2026-01-21",
+        "name": "fujin",
+        "description": "Get your project up and running in minutes on your vps.",
+        "stack": "Python",
+        "company": "Open Source",
+        "web_url": "https://fujin.oluwatobi.dev/en/latest/",
+        "github_url": "https://github.com/falcopackages/fujin",
+        "featured": true,
+        "active": true,
+        "private": false
+    },
+    {
         "last_updated": "2026-01-19",
         "name": "cookiecutter-fastapi",
         "description": "A Cookiecutter template for fastapi projects, inspired by cookiecutter-django. My first experience trying to build a cookiecutter, one of the most boring things I've worked on.",
@@ -20,18 +32,6 @@
         "company": "Open Source",
         "web_url": "https://cookiecutter-fastapi.readthedocs.io/en/latest/",
         "github_url": "https://github.com/Tobi-De/cookiecutter-fastapi",
-        "featured": true,
-        "active": true,
-        "private": false
-    },
-    {
-        "last_updated": "2026-01-18",
-        "name": "fujin",
-        "description": "Get your project up and running in minutes on your vps.",
-        "stack": "Python",
-        "company": "Open Source",
-        "web_url": "https://fujin.oluwatobi.dev/en/latest/",
-        "github_url": "https://github.com/falcopackages/fujin",
         "featured": true,
         "active": true,
         "private": false
@@ -133,7 +133,7 @@
         "private": false
     },
     {
-        "last_updated": "2026-01-17",
+        "last_updated": "2026-01-19",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
@@ -145,7 +145,7 @@
         "private": false
     },
     {
-        "last_updated": "2026-01-17",
+        "last_updated": "2026-01-19",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
@@ -157,7 +157,7 @@
         "private": false
     },
     {
-        "last_updated": "2024-11-08",
+        "last_updated": "2026-01-19",
         "name": "qosic-sdk",
         "description": "This is my first python package and it gave me a taste of how the python package ecosystem works.\r\nIt is a simple python wrapper around a payment API of a local business.",
         "stack": "Python",
