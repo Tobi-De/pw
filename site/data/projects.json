@@ -1,6 +1,6 @@
 [
     {
-        "last_updated": "2024-12-31",
+        "last_updated": "2026-06-13",
         "name": "falco",
         "description": "Enhance your Django developer experience: CLI and Guides for the Modern Developer.",
         "stack": "Python",
@@ -13,6 +13,18 @@
         "priority": 1
     },
     {
+        "last_updated": "2026-06-13",
+        "name": "fujin",
+        "description": "Get your project up and running in minutes on your vps.",
+        "stack": "Python",
+        "company": "Open Source",
+        "web_url": "https://fujin.oluwatobi.dev/en/latest/",
+        "github_url": "https://github.com/falcopackages/fujin",
+        "featured": true,
+        "active": true,
+        "private": false
+    },
+    {
         "last_updated": "2026-06-10",
         "name": "django-litestream",
         "description": "Django integration with litestream, a standalone streaming replication tool for SQLite.",
@@ -20,18 +32,6 @@
         "company": "Open Source",
         "web_url": "https://github.com/Tobi-De/django-litestream",
         "github_url": "https://github.com/Tobi-De/django-litestream",
-        "featured": true,
-        "active": true,
-        "private": false
-    },
-    {
-        "last_updated": "2026-06-09",
-        "name": "fujin",
-        "description": "Get your project up and running in minutes on your vps.",
-        "stack": "Python",
-        "company": "Open Source",
-        "web_url": "https://fujin.oluwatobi.dev/en/latest/",
-        "github_url": "https://github.com/falcopackages/fujin",
         "featured": true,
         "active": true,
         "private": false
@@ -133,7 +133,7 @@
         "private": false
     },
     {
-        "last_updated": "2026-06-09",
+        "last_updated": "2026-06-11",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
@@ -145,7 +145,7 @@
         "private": false
     },
     {
-        "last_updated": "2026-06-09",
+        "last_updated": "2026-06-11",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
