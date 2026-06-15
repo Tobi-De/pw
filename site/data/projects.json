@@ -1,6 +1,6 @@
 [
     {
-        "last_updated": "2026-06-13",
+        "last_updated": "2026-06-15",
         "name": "falco",
         "description": "Enhance your Django developer experience: CLI and Guides for the Modern Developer.",
         "stack": "Python",
@@ -133,7 +133,7 @@
         "private": false
     },
     {
-        "last_updated": "2026-06-11",
+        "last_updated": "2026-06-13",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
@@ -145,7 +145,7 @@
         "private": false
     },
     {
-        "last_updated": "2026-06-11",
+        "last_updated": "2026-06-13",
         "name": "Personal Website v2",
         "description": "My personal website, the site you are currently on. It's a static site build using coltrane, a django based static site generator.",
         "stack": "Coltrane",
