@@ -14,5 +14,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-msgspec = { git = "https://github.com/jcrist/msgspec.git", rev = "main" }
 #coltrane = { git = "https://github.com/Tobi-De/coltrane", rev = "main" }
