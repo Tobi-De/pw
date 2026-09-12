@@ -82,6 +82,10 @@ class Command(BaseCommand):
         repo = options["repo"]
         dry_run = options["dry_run"]
 
+        if "/" not in repo:
+            user = github_api_request("user")
+            repo = f"{user['login']}/{repo}"
+
         project_name = repo.split("/")[-1]
 
         try:
